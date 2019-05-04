@@ -1,14 +1,14 @@
 {
   "core": {
-    "name": "playkit-js",
-    "url": "https://github.com/kaltura/playkit-js.git",
+    "name": "pakhshkit-js",
+    "url": "https://github.com/vidiun/pakhshkit-js.git",
     "peerDependencies": [],
     "devDependencies": [],
     "usingBundleBuilder": false
   },
   "dash": {
-    "name": "playkit-js-dash",
-    "url": "https://github.com/kaltura/playkit-js-dash.git",
+    "name": "pakhshkit-js-dash",
+    "url": "https://github.com/vidiun/pakhshkit-js-dash.git",
     "peerDependencies": [
       "core"
     ],
@@ -18,8 +18,8 @@
     "usingBundleBuilder": false
   },
   "hls": {
-    "name": "playkit-js-hls",
-    "url": "https://github.com/kaltura/playkit-js-hls.git",
+    "name": "pakhshkit-js-hls",
+    "url": "https://github.com/vidiun/pakhshkit-js-hls.git",
     "peerDependencies": [
       "core"
     ],
@@ -29,8 +29,8 @@
     "usingBundleBuilder": false
   },
   "ima": {
-    "name": "playkit-js-ima",
-    "url": "https://github.com/kaltura/playkit-js-ima.git",
+    "name": "pakhshkit-js-ima",
+    "url": "https://github.com/vidiun/pakhshkit-js-ima.git",
     "peerDependencies": [
       "core"
     ],
@@ -40,8 +40,8 @@
     "usingBundleBuilder": true
   },
   "ui": {
-    "name": "playkit-js-ui",
-    "url": "https://github.com/kaltura/playkit-js-ui.git",
+    "name": "pakhshkit-js-ui",
+    "url": "https://github.com/vidiun/pakhshkit-js-ui.git",
     "peerDependencies": [],
     "devDependencies": [
       "core"
@@ -49,15 +49,15 @@
     "usingBundleBuilder": false
   },
   "providers": {
-    "name": "playkit-js-providers",
-    "url": "https://github.com/kaltura/playkit-js-providers.git",
+    "name": "pakhshkit-js-providers",
+    "url": "https://github.com/vidiun/pakhshkit-js-providers.git",
     "peerDependencies": [],
     "devDependencies": [],
     "usingBundleBuilder": false
   },
   "youbora": {
-    "name": "playkit-js-youbora",
-    "url": "https://github.com/kaltura/playkit-js-youbora.git",
+    "name": "pakhshkit-js-youbora",
+    "url": "https://github.com/vidiun/pakhshkit-js-youbora.git",
     "peerDependencies": [
       "core"
     ],
@@ -66,9 +66,9 @@
     ],
     "usingBundleBuilder": true
   },
-  "kanalytics": {
-    "name": "playkit-js-kanalytics",
-    "url": "https://github.com/kaltura/playkit-js-kanalytics.git",
+  "vanalytics": {
+    "name": "pakhshkit-js-vanalytics",
+    "url": "https://github.com/vidiun/pakhshkit-js-vanalytics.git",
     "peerDependencies": [
       "core",
       "providers"
@@ -80,8 +80,8 @@
     "usingBundleBuilder": false
   },
   "ott-analytics": {
-    "name": "playkit-js-ott-analytics",
-    "url": "https://github.com/kaltura/playkit-js-ott-analytics.git",
+    "name": "pakhshkit-js-ott-analytics",
+    "url": "https://github.com/vidiun/pakhshkit-js-ott-analytics.git",
     "peerDependencies": [
       "core",
       "providers"
@@ -93,8 +93,8 @@
     "usingBundleBuilder": false
   },
   "google-analytics": {
-    "name": "playkit-js-google-analytics",
-    "url": "https://github.com/kaltura/playkit-js-google-analytics.git",
+    "name": "pakhshkit-js-google-analytics",
+    "url": "https://github.com/vidiun/pakhshkit-js-google-analytics.git",
     "peerDependencies": [
       "core"
     ],
@@ -104,8 +104,8 @@
     "usingBundleBuilder": true
   },
   "comscore": {
-    "name": "playkit-js-comscore",
-    "url": "https://github.com/kaltura/playkit-js-comscore.git",
+    "name": "pakhshkit-js-comscore",
+    "url": "https://github.com/vidiun/pakhshkit-js-comscore.git",
     "peerDependencies": [
       "core"
     ],
@@ -115,8 +115,8 @@
     "usingBundleBuilder": true
   },
   "kava": {
-    "name": "playkit-js-kava",
-    "url": "https://github.com/kaltura/playkit-js-kava.git",
+    "name": "pakhshkit-js-kava",
+    "url": "https://github.com/vidiun/pakhshkit-js-kava.git",
     "peerDependencies": [
       "core"
     ],
@@ -126,8 +126,8 @@
     "usingBundleBuilder": false
   },
   "vr": {
-    "name": "playkit-js-vr",
-    "url": "https://github.com/kaltura/playkit-js-vr.git",
+    "name": "pakhshkit-js-vr",
+    "url": "https://github.com/vidiun/pakhshkit-js-vr.git",
     "peerDependencies": [
       "core"
     ],

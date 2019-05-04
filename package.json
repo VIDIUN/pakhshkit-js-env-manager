@@ -1,16 +1,16 @@
 {
-  "name": "playkit-js-env-manager",
+  "name": "pakhshkit-js-env-manager",
   "version": "3.3.2",
   "scripts": {
     "release": "standard-version",
     "publish": "git push --follow-tags --no-verify origin master",
-    "devStart": "playkit-dev start",
-    "devStop": "playkit-dev stop",
-    "relStart": "playkit-rel start"
+    "devStart": "pakhshkit-dev start",
+    "devStop": "pakhshkit-dev stop",
+    "relStart": "pakhshkit-rel start"
   },
   "bin": {
-    "playkit-dev": "./lib/dev-mode/index.js",
-    "playkit-rel": "./lib/release-mode/index.js"
+    "pakhshkit-dev": "./lib/dev-mode/index.js",
+    "pakhshkit-rel": "./lib/release-mode/index.js"
   },
   "devDependencies": {
     "standard-version": "^4.0.0"
@@ -25,8 +25,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaltura/playkit-js-env-manger"
+    "url": "https://github.com/vidiun/pakhshkit-js-env-manger"
   },
-  "description": "An environment manager to setup playkit-js-* projects across repos",
+  "description": "An environment manager to setup pakhshkit-js-* projects across repos",
   "license": "AGPLV3"
 }
