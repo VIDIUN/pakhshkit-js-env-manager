@@ -1,10 +1,10 @@
-# PlayKit JS Env Manager - An environment manager to setup playkit-js-* projects across repos
+# PakhshKit JS Env Manager - An environment manager to setup pakhshkit-js-* projects across repos
 
-PlayKit JS Env Manager is a command line tool which aims to solve the development
-challenges for multiple packages (playkit-js-*) that
-integrates to a single application ([Kaltura Player] in our case).
+PakhshKit JS Env Manager is a command line tool which aims to solve the development
+challenges for multiple packages (pakhshkit-js-*) that
+integrates to a single application ([Vidiun Player] in our case).
 
-[Kaltura Player]: https://github.com/kaltura/kaltura-player-js
+[Vidiun Player]: https://github.com/vidiun/vidiun-player-js
 
 # Prerequisites
 
@@ -17,37 +17,37 @@ Then, go to System Preferences > Security & Privacy, tab Privacy,
 select Accessibility, unlock, and make sure Terminal.app is in the list on the
 right and has a checkmark.
 
-### 2. Clone _kaltura-player-js_ repository
+### 2. Clone _vidiun-player-js_ repository
 ```
-$ git clone https://github.com/kaltura/kaltura-player-js.git
-$ cd kaltura-player-js
+$ git clone https://github.com/vidiun/vidiun-player-js.git
+$ cd vidiun-player-js
 $ yarn
 ```
 
 ### 3. Folder structure
-Pay attention that all playkit-js-* repos including kaltura-player-js repo must be under the same parent directory.
+Pay attention that all pakhshkit-js-* repos including vidiun-player-js repo must be under the same parent directory.
 An example for a valid folder structure is:
 ```
 - repos
-  - playkit-js
-  - playkit-js-hls
-  - playkit-js-dash
-  - playkit-js-ima
-  - playkit-js-ui
-  - playkit-js-youbora
-  - playkit-js-providers
-  - playkit-js-kanalytics
-  - kaltura-player-js
+  - pakhshkit-js
+  - pakhshkit-js-hls
+  - pakhshkit-js-dash
+  - pakhshkit-js-ima
+  - pakhshkit-js-ui
+  - pakhshkit-js-youbora
+  - pakhshkit-js-providers
+  - pakhshkit-js-vanalytics
+  - vidiun-player-js
 ```
 # Quick Start
-* Go to _package.json_ file in _kaltura-player-js_ project.
+* Go to _package.json_ file in _vidiun-player-js_ project.
 * Observe under `scripts` the following commands:
 ````
 "scripts": {
   ....
-  "playkit-dev:start": "playkit-dev start",
-  "playkit-dev:stop": "playkit-dev stop",
-  "playkit-rel": "playkit-rel start"
+  "pakhshkit-dev:start": "pakhshkit-dev start",
+  "pakhshkit-dev:stop": "pakhshkit-dev stop",
+  "pakhshkit-rel": "pakhshkit-rel start"
   ...
 }
 ````
@@ -60,39 +60,39 @@ An example for a valid folder structure is:
     "releaseMode": []
   }
 ```
-* To run a certain script, simply open your terminal, go to kaltura-player-js project:
+* To run a certain script, simply open your terminal, go to vidiun-player-js project:
 ```
-$ cd PATH/TO/kaltura-player-js
+$ cd PATH/TO/vidiun-player-js
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and run one of:
   ```
-  yarn run playkit-rel
-  yarn run playkit-dev:start
-  yarn run playkit-dev:stop
+  yarn run pakhshkit-rel
+  yarn run pakhshkit-dev:start
+  yarn run pakhshkit-dev:stop
   ```
-## Aliases for playkit repos
+## Aliases for pakhshkit repos
 Each repo has an alias to shorten its name and thus manipulate the configuration more easily and quickly:
-* _playkit-js -> **core**_
-* _playkit-js-ui -> **ui**_
-* _playkit-js-ima -> **ima**_
-* _playkit-js-hls -> **hls**_
-* _playkit-js-dash -> **dash**_
-* _playkit-js-providers -> **providers**_
-* _playkit-js-youbora -> **youbora**_
-* _playkit-js-kanalytics -> **kanalytics**_
-* _playkit-js-ott-analytics -> **ott-analytics**_
-* _playkit-js-google-analytics -> **google-analytics**_
-* _playkit-js-comscore -> **comscore**_
-* _playkit-js-kava -> **kava**_
-* _playkit-js-vr -> **vr**_
+* _pakhshkit-js -> **core**_
+* _pakhshkit-js-ui -> **ui**_
+* _pakhshkit-js-ima -> **ima**_
+* _pakhshkit-js-hls -> **hls**_
+* _pakhshkit-js-dash -> **dash**_
+* _pakhshkit-js-providers -> **providers**_
+* _pakhshkit-js-youbora -> **youbora**_
+* _pakhshkit-js-vanalytics -> **vanalytics**_
+* _pakhshkit-js-ott-analytics -> **ott-analytics**_
+* _pakhshkit-js-google-analytics -> **google-analytics**_
+* _pakhshkit-js-comscore -> **comscore**_
+* _pakhshkit-js-kava -> **kava**_
+* _pakhshkit-js-vr -> **vr**_
 
 # Configuration
 
 ## devMode
 
 ### Commands
-* **playkit-dev:start**
-* **playkit-dev:stop**
+* **pakhshkit-dev:start**
+* **pakhshkit-dev:stop**
 
 
 ### Structure
@@ -120,7 +120,7 @@ Each repo has an alias to shorten its name and thus manipulate the configuration
 ## releaseMode
 
 ### Commands
-* **playkit-rel**
+* **pakhshkit-rel**
 
 ### Structure
 ```
@@ -151,7 +151,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js-ima/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js-ima/tags).
 
 ## License
 
